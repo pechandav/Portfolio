@@ -14,10 +14,10 @@
 .col-sm-3 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center
+    justify-content: center;
+    align-items: center
 }
 
-.body {
+body {
     font-family: 'Inconsolata', monospace;
 }
