@@ -18,7 +18,6 @@ For example: Adding alt text to images would be a single commit or changing the 
 <img width="1440" alt="Screen Shot 2020-06-21 at 7 59 26 PM" src="https://user-images.githubusercontent.com/65871175/85244943-f7deef80-b3fa-11ea-8b18-c06e2a0cfdb0.png">
 
 <br>
-
 <img width="1440" alt="Screen Shot 2020-06-21 at 7 59 26 PM" src="https://user-images.githubusercontent.com/65871175/85244943-f7deef80-b3fa-11ea-8b18-c06e2a0cfdb0.png">
 
 <br>
