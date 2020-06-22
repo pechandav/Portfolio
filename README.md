@@ -24,4 +24,4 @@ For example: Adding alt text to images would be a single commit or changing the 
 
 <br>
 
-![image](https://user-images.githubusercontent.com/65871175/85245347-1f828780-b3fc-11ea-9064-a0e32878b817.png)
+![image](https://user-images.githubusercontent.com/65871175/85245423-5a84bb00-b3fc-11ea-9360-b1186eb6672a.png)
