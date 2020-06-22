@@ -15,4 +15,4 @@ First, I created the html files that were needed for the project:
 I made sure to commit each change I made to each file part by part;
 For example: Adding alt text to images would be a single commit or changing the font color of the website would be a single commit.
 
-<img src="/Users/pechandavon/Desktop/Screen Shot 2020-06-21 at 7.47.54 PM.png" alt="Screenshot of preview of website">
+<img src="/Users/pechandavon/Desktop/Screen Shot 2020-06-21 at 7.47.54 PM.png">
