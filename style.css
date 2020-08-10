@@ -1,32 +1,194 @@
-.justify-content-end {
-    justify-content: end;
-    background-color: #D6809C;
-}
-
-.nav-link {
-    color: blanchedalmond;
-}
-
-.container {
-    color: #D6809C;
-}
-
-.col-sm-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center
-}
-
 body {
-    font-family: 'Inconsolata', monospace;
-    background-color:#FAF5EF ;
-}
-
-h1 {
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/26/06/29/flowers-402094_1280.jpg")
+    }
+    h2{
+    font-size: 24px;
+    }
+    p {
+    font-size:14px;
+    }
+    #tophead {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    margin: 0 0 30px 0;
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/26/06/29/flowers-402094_1280.jpg");
+    border-bottom: 3px solid rgba(226, 120, 226, 0.418);
+    left: 0;
+    top: 0;
+    }
+    #person {
+    float: left;
+    position: relative;
+    left: 75px;
+    width: 350px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
     text-align: center;
-}
-
-.action_page.php {
-    align-items: center;
-}
+    text-decoration: none;
+    background: transparent;
+    }
+    nav {
+    position: relative;
+    line-height:50px;
+    right: 75px;
+    float: right;
+    font-size:20px;
+    margin-top: 25px;
+    }
+    nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 25px;
+    color: white;
+    text-decoration: none;
+    border-left: 3px solid white;
+    }
+    nav a:first-child {
+    border-left: 0 none;
+    }
+    a {
+    transition: color .5s;
+    }
+    a:hover {
+    color: gold;
+    }
+    a:active {
+    color: rgba(226, 120, 226, 0.418);
+    }
+    .maincont {
+    position: relative;
+    top: 150px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    }
+    .subcont {
+    width: 75%;
+    background-color:rgba(226, 120, 226, 0.418);
+    padding: 30px;
+    border: 100px;
+    }
+    #pageis {
+    text-align: left;
+    padding: 30px;
+    background-image: url("");
+    background-color: rgb(227, 128, 240);
+    font-weight: 600;
+    border-bottom: solid 0px;
+    color: white;
+    }
+    .holder {
+    position: relative;
+    background-color: rgba(174, 154, 221, 0.329);
+    width: 100%;
+    min-height: 350px;
+    overflow:hidden;
+    }
+    #mainimg {
+    float: left;
+    border:10px;
+    padding: 30px;
+    }
+    #fun {
+    color:rgba(174, 154, 221, 0.329);
+    font-size: 12px;
+    position: relative;
+    bottom: -20px;
+    }
+    .relativetofooter{
+    position: relative;
+    }
+    .footercont {
+    clear: both;
+    padding: 5px;
+    background: rgba(226, 120, 226, 0.418);
+    position: relative;
+    bottom:-300px;
+    width:100%;
+    left:-10px;
+    background-image: url("");
+    border-top: solid 3px rgba(226, 120, 226, 0.418);
+    }
+    .footer {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    }
+    ul {
+    border: 5px;
+    padding:5px;
+    }
+    .formis {
+    margin: 20px;
+    }
+    .form {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 100%;
+    }
+    input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    }
+    input[type=submit] {
+    background-color: rgb(79, 8, 245);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    #portpic {
+    background-color: rgba(226, 120, 226, 0.418);
+    position: relative;
+    float: left;
+    width: 100%;
+    }
+    #portdesc {
+    clear: both;
+    background: rgb(53, 16, 219);
+    text-align: center;
+    color: white;
+    float: left;
+    width:100%;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    z-index: 2;
+    bottom: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .subsubcont {
+    padding: 20px;
+    width:25%;
+    float: left;
+    }
+    .subholder {
+    position: relative;
+    left: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .hovereffect:hover {
+    transition: .5s ease;
+    opacity: 0.7;
+    }
+  
+    .submithover:hover {
+      transition: .5s ease;
+      background: darkcyan;
+      padding:7px;
+    }
